@@ -201,7 +201,7 @@ function scoreRender(){
     var img = (result == 100) ? "image/1.gif" :
               (result >= 80) ? "image/2.gif" :
               (result >= 60) ? "https://media.giphy.com/media/cP5li7Un9Ua2OT7i9y/giphy.gif" :
-              (result >= 40) ? "image/7.gif" : "image/6.gif"
+              (result >= 40) ? "image/7.gif" : "image/3.gif"
     
               scoreDiv.innerHTML = "<img src="+ img +">";
     scoreDiv.innerHTML += "<p>"+ result  +"%</p>";
